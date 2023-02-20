@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main -program 
- * Return: 0 (success) 
+ *main-program 
+ *Return:0 (success) 
  */
 int main(void)
 {
