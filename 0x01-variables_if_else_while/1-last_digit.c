@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main -C code assign a random number to the variable n 
-*Return:0 (success)
+ * main -C code progam that assign  variable n 
+ * Return:0 (success)
 */
 int main(void)
 {
@@ -20,7 +20,7 @@ else if (ld == 0)
 {printf("Last digit of %d is %d and is 0\n", n, ld);
 }
 else
-{printf("Last digit of %d is %d and is lesss than 6 and not 0\n", n, ld);
+{printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ld);
 }
 return (0);
 }
