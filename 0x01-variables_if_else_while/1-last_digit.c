@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - A program that assign variables 
- *Return:0 (success)
+ * main -A program that assign variables 
+ * Return:0 (success)
  */
 int main(void)
 {
