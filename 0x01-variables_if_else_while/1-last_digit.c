@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main-C code progam that assign  variable n 
+ * main-C code progam that assign variable n 
  * Return:0 (success)
 */
 int main(void)
