@@ -1,26 +1,27 @@
 #include <stdio.h>
-
 /**
- *main - Prints the add of the Fibonacci numbers
- *
- * Return: Always 0.
+ * main - finds and prints the sum of the even-valued terms
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
-int main(void)
+nt main(void)
 {
-	int c;
-	long int n1, n2, fn;
-
-	n1 = 1;
-	n2 = 2;
-	printf("%ld, %ld", n1, n2);
-	for (c = 0; c < 48; c++)
-	{
-		fn = n1 + n2;
-		printf(", %ld", fn);
-		n1 = n2;
-		n2 = fn;
-	}
-	printf("\n");
-	return (0);
+int i;
+unsigned long int j, k, next, sum;
+j = 1;
+k = 2;
+sum = 0;
+for (i = 1; i <= 33; ++i)
+{
+if (j < 4000000 && (j % 2) == 0)
+{
+sum = sum + j;
+}
+next = j + k;
+j = k;
+k = next;
+}
+printf("%lu\n", sum);
+return (0);
 }
 
